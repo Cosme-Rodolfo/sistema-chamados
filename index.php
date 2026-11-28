@@ -17,7 +17,7 @@ $chamados = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
     <h1>Chamados Registrados</h1>
-
+    <p><a href="novo_chamado.php">+ Abrir Novo Chamado</a></p>
     <table border="1" cellpadding="8" cellspacing="0">
         <thead>
             <tr>
